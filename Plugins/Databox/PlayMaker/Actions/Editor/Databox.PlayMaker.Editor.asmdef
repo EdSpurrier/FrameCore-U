@@ -1,0 +1,16 @@
+{
+    "name": "Databox.PlayMaker.Editor",
+    "references": [
+        "GUID:43d7d8c193cc41242b16401e5ff06c7e"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}

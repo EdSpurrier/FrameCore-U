@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>Toggle FrameCore Event</Title>
+			<Author>Ed Spurrier</Author>
+			<Description>Toggle FrameCore Event</Description>
+			<Shortcut>toggleEvent</Shortcut>
+		</Header>
+		<Snippet>
+			<Code Language="CSharp">
+				<![CDATA[
+					[HideLabel]
+					public OnOffToggleEvent onOffEvent = new OnOffToggleEvent
+					{
+						eventName = "On & Off States",
+						onEvent = new FrameCoreEvent
+						{
+							eventName = "On"
+						},
+						offEvent = new FrameCoreEvent
+						{
+							eventName = "Off"
+						}
+					};
+				]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>
